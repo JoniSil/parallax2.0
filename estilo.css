@@ -1,0 +1,131 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family:  "Trebuchet MS", Helvetica, sans-serif;
+    background-color:white ;
+    height: 100%;
+}
+
+h3 {
+    text-transform: uppercase;
+	color: #111;
+	text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#topo {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Barra de navegação*/
+
+
+a:hover {
+    color: #e50040;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    
+    margin-top: 30px;
+    background: black;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1 {
+    background-image: url(imagens/floresta.jpg);
+}
+
+.caixa2 {
+    background-image: url(imagens/portal.jpg);
+}
+
+.caixa3 {
+    background-image: url(imagens/lua.jpg);
+}
+
+.caixa4 {
+    background-image: url(imagens/planeta.jpg);
+}
+
+.caixa5 {
+    background-image: url(imagens/casa.jpg);
+}
+
+.caixa6 {
+    background-image: url(imagens/tokyo.jpg);
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+img#icone{
+    position: absolute;
+    width: 45px;
+	left: 850px;
+	top: 34px;
+}
+
+
+
+
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+
+}
+
+footer#rodape p {
+	text-align: center;
+}
